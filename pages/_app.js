@@ -3,11 +3,22 @@ import "../styles/globals.css";
 import { Fragment } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "@components/Footer";
+import NavBar from "@components/navbar";
 
 export default function App({ Component, pageProps }) {
   return (
-    <Fragment>
+    <div style={{
+      backgroundImage: "url('/gameImage/bg.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "fixed",
+    }}>
       <GA4Initializer />
+      <div className="bg-white w-full ls:w-[360px] flex md:justify-center md:mx-auto ">
+
+        <NavBar />
+      </div>
       <Component {...pageProps} />
       <ToastContainer
         position="bottom-right"
@@ -20,6 +31,10 @@ export default function App({ Component, pageProps }) {
         pauseOnHover
         theme="light"
       />
-    </Fragment>
+      <div className="bg-white w-full ls:w-[360px] flex md:justify-center md:mx-auto ">
+        <Footer />
+      </div>
+
+    </div>
   );
 }

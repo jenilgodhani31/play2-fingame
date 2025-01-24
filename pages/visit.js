@@ -6,15 +6,11 @@ function Visit() {
   return (
     <Fragment>
       <Head>
-        <title>{"Fin Games"}</title>
+        <title>{"fingameon "}</title>
+        
       </Head>
       <div
-        style={{
-          backgroundImage: "url('/gameImage/bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-        }}
+        
       >
         <VisitPage />
       </div>
