@@ -1,21 +1,24 @@
+
+import DiamondCodes from "@containers/diamondCodes";
+import Freefire from "@containers/freefire";
 import Head from "next/head";
 import { Fragment } from "react";
-import Home from "../containers/home";
 
-export default function Homepage() {
+function diamondcodes() {
   return (
     <Fragment>
       <Head>
         <title>{"fingameon "}</title>
-        <link rel="icon" href="/gameImage/launch-icon.png" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4575195873243785"
-          crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
       </Head>
       <div
 
       >
-        <Home />
+        <DiamondCodes />
       </div>
     </Fragment>
-  );
+  )
 }
+
+export default diamondcodes

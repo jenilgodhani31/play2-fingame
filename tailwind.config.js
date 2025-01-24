@@ -13,7 +13,10 @@ module.exports = {
         foreground: "var(--foreground)",
         primary1: "rgba(0, 174, 205, 0.1)",
         primary2:"#00aecd ",
-         primary3:"#1d68a7 "
+         primary3:"#1d68a7 ",
+         primary4:"#334155" ,//text
+         primary5:"#EE0909",
+          primary6:"#45962f"
       },
       screens: {
         xs: "400px",
