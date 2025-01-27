@@ -9,7 +9,11 @@ function VisitPage() {
 
         <div className="flex flex-col justify-center pt-10 px-5 pb-5">
 
-        <Ads display={true} data-ad-slot="2593755237" />
+        <Ads
+          data-ad-slot="3067284912"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
         
           <div className="text-black font-bold pb-2 text-[25px]">
             3 Ways to Earn Lots of Free Diamonds in Free Fire!
