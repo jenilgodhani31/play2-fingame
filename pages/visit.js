@@ -7,6 +7,15 @@ function Visit() {
     <Fragment>
       <Head>
         <title>{"fingameon "}</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VWXQ4EGHNY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VWXQ4EGHNY');
+</script>
         
       </Head>
       <div
