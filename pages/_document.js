@@ -1,10 +1,12 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-    <Script
+        {/* Google Ads Conversion Tracking */}
+        <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=AW-10944338984"
         />
@@ -20,6 +22,7 @@ export default function Document() {
             ,
           }}
         />
+
         <meta charSet="utf-8" />
         <link rel="icon" href="/gameImage/launch-icon.png" />
         <link rel="stylesheet" type="text/css" />
@@ -28,8 +31,13 @@ export default function Document() {
           type="text/css"
           href="https://cdn.jsdelivr.net/npm/neuicons/css/neu.min.css"
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4575195873243785"
-     crossorigin="anonymous"></script>
+        
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4575195873243785"
+          crossOrigin="anonymous"
+        />
       </Head>
 
       <body>
