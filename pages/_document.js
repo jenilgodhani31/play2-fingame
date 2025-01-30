@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Google Ads Conversion Tracking */}
+        {/* Google Tag (gtag.js) */}
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=AW-10944338984"
@@ -16,7 +16,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{
             __html: 
               window.dataLayer = window.dataLayer || [];
-              function gtag() { dataLayer.push(arguments); }
+              function gtag(){ dataLayer.push(arguments); }
               gtag('js', new Date());
               gtag('config', 'AW-10944338984');
             ,
@@ -31,7 +31,7 @@ export default function Document() {
           type="text/css"
           href="https://cdn.jsdelivr.net/npm/neuicons/css/neu.min.css"
         />
-        
+
         {/* Google AdSense */}
         <Script
           async
