@@ -36,11 +36,7 @@ function Home() {
 
 
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
-          <Ads
-          data-ad-slot="3067284912"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
+          <Ads display={true} data-ad-slot="2593755237" />
 
 
 
