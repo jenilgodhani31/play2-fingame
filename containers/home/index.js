@@ -212,7 +212,7 @@ function Home() {
 <Modal
           outerClassName="border-[1px] border-white"
           isOpen={isOpen}
-          onClose={() => SetIsOpen(false)}
+          onClose={() => setIsOpen(false)}
         >
           <Ads display={true} data-ad-slot="7506023729" />
         </Modal>
