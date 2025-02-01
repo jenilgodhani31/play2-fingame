@@ -5,6 +5,7 @@ import Ads from "@components/Ads";
 
 const Modal = dynamic(() => import("@components/model"), { ssr: false });
 function Home() {
+  const [isClient, setIsClient] = useState(false);
   const [isOpen, setIsOpen] = useState(true)
 
 
@@ -207,7 +208,7 @@ function Home() {
 
 
       </div>
-
+{isClient && (
 <Modal
           outerClassName="border-[1px] border-white"
           isOpen={isOpen}
@@ -215,6 +216,7 @@ function Home() {
         >
           <Ads display={true} data-ad-slot="7506023729" />
         </Modal>
+            )}
 
 
     </Fragment>
