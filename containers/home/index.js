@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Ads from "@components/Ads";
+import Modal from "@components/model";
 
 
 const Modal = dynamic(() => import("@components/model"), { ssr: false });
@@ -212,6 +213,16 @@ function Home() {
 
 
     </Fragment>
+
+   {isClient && (
+        <Modal
+          outerClassName="border-[1px] border-white"
+          isOpen={isOpen}
+          onClose={() => SetIsOpen(false)}
+        >
+          <Ads display={true} data-ad-slot="7506023729" />
+        </Modal>
+      )}
   );
 }
 
