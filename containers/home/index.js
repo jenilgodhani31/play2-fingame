@@ -5,7 +5,7 @@ import Ads from "@components/Ads";
 
 const Modal = dynamic(() => import("@components/model"), { ssr: false });
 function Home() {
-  const [isClient, setIsClient] = useState(false);
+  const [isClient, setIsClient] = useState(true);
   const [isOpen, setIsOpen] = useState(true)
 
 
