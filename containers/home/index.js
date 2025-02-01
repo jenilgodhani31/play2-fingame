@@ -223,6 +223,7 @@ function Home() {
           <Ads display={true} data-ad-slot="7506023729" />
         </Modal>
       )}
+  </>
   );
 }
 
