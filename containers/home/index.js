@@ -209,14 +209,7 @@ function Home() {
 
       </div>
 
-
-
-
-    </Fragment>
-
-
-  );
-     {isClient && (
+{isClient && (
         <Modal
           outerClassName="border-[1px] border-white"
           isOpen={isOpen}
@@ -226,6 +219,13 @@ function Home() {
         </Modal>
       )}
   </>
+
+
+    </Fragment>
+
+
+  );
+     
 }
 
 
