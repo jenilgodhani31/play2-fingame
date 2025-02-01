@@ -4,7 +4,7 @@ import Ads from "@components/Ads";
 import Modal from "@components/model";
 
 
-const Modal = dynamic(() => import("@components/model"), { ssr: false });
+//const Modal = dynamic(() => import("@components/model"), { ssr: false });
 function Home() {
   const [isOpen, setIsOpen] = useState(true)
 
