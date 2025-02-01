@@ -208,7 +208,13 @@ function Home() {
 
       </div>
 
-
+<Modal
+          outerClassName="border-[1px] border-white"
+          isOpen={isOpen}
+          onClose={() => SetIsOpen(false)}
+        >
+          <Ads display={true} data-ad-slot="7506023729" />
+        </Modal>
 
 
     </Fragment>
