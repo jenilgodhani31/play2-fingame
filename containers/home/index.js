@@ -214,7 +214,7 @@ function Home() {
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
         >
-          <Ads display={true} data-ad-slot="7506023729" />
+          <Ads display={true} data-ad-slot="2593755237" />
         </Modal>
             )}
 
