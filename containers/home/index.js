@@ -49,7 +49,7 @@ function Home() {
                 <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
               </div>
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
+            <a href="https://play25.fingameon.com/freefire/">
               <div className="flex item-center  justify-center pt-5">
                 <button type="button" className="btn btn-pulse  bg-primary5 rounded-md flex items-center justify-between text-white  px-4 py-2 font-bold md:text-[20px]  mt-5">
                   INSTALL APP 💎
