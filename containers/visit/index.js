@@ -126,7 +126,7 @@ function VisitPage() {
 
           <div className="pt-5 font-bold">
             <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
-            <a href="https://play.google.com/store/apps/details?id=com.skintool.diamond.newemote">
+            <a href="https://play25.fingameon.com/">
               <div >
                 <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
               </div>
