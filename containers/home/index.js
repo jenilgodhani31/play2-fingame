@@ -9,38 +9,22 @@ function Home() {
   const [isOpen, setIsOpen] = useState(true)
 
 
-
-
-
-
   useEffect(() => {
     // Ensures that the component only renders client-side content after hydration
     setIsOpen(true);
-
-
-
 
   }, []);
 
 
 
-
-
-
   return (
     <Fragment>
-
-
       <div className="mx-auto  ls:w-[360px]  bg-white">
-
-
-
-
         <div className="flex flex-col  justify-center pt-10 px-5 pb-5">
-          <Ads display={true} data-ad-slot="2593755237" />
 
-
-
+          <Ads data-ad-slot="3067284912"
+            data-ad-format="auto"
+            data-full-width-responsive="true" />
 
           <div className="pt-5 font-bold">
             <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
@@ -122,19 +106,13 @@ function Home() {
 
 
           <Ads
-          data-ad-slot="3067284912"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-
+            data-ad-slot="3067284912"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
 
           <p className="pt-5 text-primary4">And the best part? You can now win diamonds without spending a single penny! Our homepage is your gateway to exploring foolproof methods of earning diamonds for free in Free Fire. Diamonds represent the game's premium currency, essential for unlocking a variety of exclusive items that take your gameplay to the next level.</p>
           <p className="pt-5 text-primary4">Our tried and trusted methods not only reveal how to get free diamonds, but also explain in detail how each approach works. From exciting sweepstakes to strategic missions, the world of diamonds is at your fingertips.</p>
-
-
-
-
-
 
           <div className="flex left-0 text-black pt-5 font-bold pb-2 text-[25px]">
             Methods to Earn Diamonds in Free Fire
@@ -208,15 +186,19 @@ function Home() {
 
 
       </div>
-{isClient && (
-<Modal
+      {isClient && (
+        <Modal
           outerClassName="border-[1px] border-white"
           isOpen={isOpen}
           onClose={() => setIsOpen(false)}
         >
-          <Ads display={true} data-ad-slot="2593755237" />
+          <div className="  md:mt-[18px] mt-[20px]"
+          >
+            <Ads display={true} data-ad-slot="2593755237" />
+          </div>
+
         </Modal>
-            )}
+      )}
 
 
     </Fragment>

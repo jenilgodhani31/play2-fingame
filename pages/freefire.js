@@ -11,12 +11,7 @@ function freefire() {
           crossorigin="anonymous"></script>
       </Head>
       <div
-        style={{
-          backgroundImage: "url('/gameImage/bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-        }}
+        
       >
         <Freefire />
       </div>
