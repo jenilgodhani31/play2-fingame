@@ -179,12 +179,12 @@ function DiamondCodes() {
 
           <div className="pt-5 font-bold">
             <div className="font-bold text-[30px] md:text-[25px]">Download App and get Free 5000 Diamond 💎</div>
-            <a href="/home">
+            <a href="/">
               <div >
                 <img src="/gameImage/unnamed.png" className="h-[200px] mt-5" />
               </div>
             </a>
-            <a href="/home">
+            <a href="/">
               <div className="flex item-center  justify-center ">
                 <button type="button" className=" btn btn-pulse bg-primary5  rounded-md flex items-center justify-between text-white px-8 py-2 font-bold text-[20px] mt-5">
                   INSTALL APP 💎
