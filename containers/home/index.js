@@ -36,7 +36,7 @@ function Home() {
             <a href="https://freediamonds.fingameon.com/">
               <div className="flex item-center  justify-center pt-5">
                 <button type="button" className="btn btn-pulse  bg-primary5 rounded-md flex items-center justify-between text-white  px-4 py-2 font-bold md:text-[20px]  mt-5">
-                  INSTALL APP 💎
+                  CLAIM 5000 💎
                 </button>
               </div>
             </a>
